@@ -2,7 +2,8 @@
 # See https://jupyterbook.org and https://mystmd.org/guide
 version: 1
 project:
-  title: Stats Notes
+  title: Probability & Statistics with NumPy
+  description: A short course on probability and statistics using NumPy.
   github: https://github.com/jimnel/stats-notes
   settings:
     output_matplotlib_strings: remove
