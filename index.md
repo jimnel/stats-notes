@@ -17,18 +17,26 @@ The course doesn't treat statistical methods as black boxes. Each notebook build
 
 ## Contents
 
+The course has three parts. Each chapter builds on the ones before it, so they're best read in order.
+
+### Part I: Probability
+
 1. [Probability basics](./notebooks/01-probability-basics.ipynb): events, conditional probability, independence and Bayes' rule
 2. [Random variables, expectation and variance](./notebooks/02-random-variables.ipynb): means, variances and linearity of expectation
 3. [Sampling](./notebooks/03-sampling.ipynb): drawing random samples and how sample statistics behave
 4. [Common distributions](./notebooks/04-common-distributions.ipynb): Bernoulli, binomial, normal, Poisson and others, explored by simulation
 5. [The law of large numbers and the central limit theorem](./notebooks/05-law-of-large-numbers-and-clt.ipynb): why averages converge and why the normal distribution is everywhere
 6. [Correlation](./notebooks/06-correlation.ipynb): measuring how two variables move together
+
+### Part II: Statistical inference
+
 7. [Estimators](./notebooks/07-estimators.ipynb): bias, variance and standard error
-8. [Most likely estimate](./notebooks/08-most-likely-estimate.ipynb): maximum likelihood estimation
+8. [Maximum likelihood estimation](./notebooks/08-maximum-likelihood-estimation.ipynb): choosing the parameter value that makes the data most probable
 9. [Confidence intervals and the bootstrap](./notebooks/09-confidence-intervals-and-bootstrap.ipynb): quantifying uncertainty by resampling
 10. [Hypothesis testing](./notebooks/10-hypothesis-testing.ipynb): p-values and permutation tests
 11. [Linear regression](./notebooks/11-linear-regression.ipynb): least squares as maximum likelihood
+
+### Part III: Bayesian inference
+
 12. [Bayes estimation](./notebooks/12-bayes-estimation.ipynb): updating beliefs about a parameter with Bayes' rule
 13. [Markov chain Monte Carlo](./notebooks/13-mcmc.ipynb): sampling from a posterior with a Metropolis sampler
-
-Each chapter builds on the ones before it, so they're best read in order.

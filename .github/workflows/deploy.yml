@@ -24,6 +24,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check every notebook is in the table of contents
+        run: |
+          for f in notebooks/*.ipynb; do
+            if ! grep -qF "file: $f" myst.yml; then
+              echo "::error file=$f::$f is not listed in the toc in myst.yml"
+              missing=1
+            fi
+          done
+          exit ${missing:-0}
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
