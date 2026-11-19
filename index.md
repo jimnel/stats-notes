@@ -17,4 +17,10 @@ The course doesn't treat statistical methods as black boxes. Each notebook build
 
 ## Contents
 
-Use the sidebar to navigate. Each notebook stands on its own, but they're designed to be read in order.
+1. [Sampling](./notebooks/01-sampling.ipynb): drawing random samples and how sample statistics behave
+2. [Common distributions](./notebooks/02-common-distributions.ipynb): Bernoulli, binomial, normal, Poisson and others, explored by simulation
+3. [Correlation](./notebooks/03-correlation.ipynb): measuring how two variables move together
+4. [Most likely estimate](./notebooks/04-most-likely-estimate.ipynb): maximum likelihood estimation
+5. [Bayes estimation](./notebooks/05-bayes-estimation.ipynb): updating beliefs about a parameter with Bayes' rule
+
+Each chapter builds on the ones before it, so they're best read in order.
