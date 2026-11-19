@@ -1,0 +1,16 @@
+# Jupyter Book 2 (MyST) configuration
+# See https://jupyterbook.org and https://mystmd.org/guide
+version: 1
+project:
+  title: Stats Notes
+  github: https://github.com/jimnel/stats-notes
+  settings:
+    output_matplotlib_strings: remove
+  toc:
+    - file: index.md
+    # Every notebook in notebooks/ is picked up automatically
+    - pattern: notebooks/*.ipynb
+site:
+  template: book-theme
+  options:
+    folders: true
