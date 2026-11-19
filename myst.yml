@@ -9,8 +9,25 @@ project:
     output_matplotlib_strings: remove
   toc:
     - file: index.md
-    # Every notebook in notebooks/ is picked up automatically
-    - pattern: notebooks/*.ipynb
+    - title: "Part I: Probability"
+      children:
+        - file: notebooks/01-probability-basics.ipynb
+        - file: notebooks/02-random-variables.ipynb
+        - file: notebooks/03-sampling.ipynb
+        - file: notebooks/04-common-distributions.ipynb
+        - file: notebooks/05-law-of-large-numbers-and-clt.ipynb
+        - file: notebooks/06-correlation.ipynb
+    - title: "Part II: Statistical inference"
+      children:
+        - file: notebooks/07-estimators.ipynb
+        - file: notebooks/08-maximum-likelihood-estimation.ipynb
+        - file: notebooks/09-confidence-intervals-and-bootstrap.ipynb
+        - file: notebooks/10-hypothesis-testing.ipynb
+        - file: notebooks/11-linear-regression.ipynb
+    - title: "Part III: Bayesian inference"
+      children:
+        - file: notebooks/12-bayes-estimation.ipynb
+        - file: notebooks/13-mcmc.ipynb
 site:
   template: book-theme
   options:
